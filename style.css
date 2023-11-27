@@ -230,6 +230,7 @@ margin-top: 5vw;
     display: inline-block;
     margin: 1.5vw;
     position: relative;
+   
     width:15vw;
     margin-left: 2vw;
     border-radius: 1vw;
@@ -259,6 +260,16 @@ margin-top: 5vw;
 }
 .grid-item:hover .bottom-grid{
     bottom:0;
+}
+
+.grid-item:hover{
+    box-shadow: .1vw .1vw .5vw black;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
 }
 
 .grid-item p{
